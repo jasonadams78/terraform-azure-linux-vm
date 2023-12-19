@@ -7,8 +7,6 @@ variable "vnetName" {
   
 }
 
-
-
 # this is your vnet variables.  The default is 10.0.0.0, make sure to update subnets to match the vnets!!!
 variable "vnetAddrspace" {
     type = tuple([ string ])
