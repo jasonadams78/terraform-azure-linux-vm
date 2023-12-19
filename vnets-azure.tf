@@ -13,7 +13,7 @@ variable "vnetAddrspace" {
 }
 
 variable "GatewaySnetAddrespace" {
-    type = tuple(string)
+    type = tuple([ string ])
     default = ["10.0.1.0/24"]
 }
 
